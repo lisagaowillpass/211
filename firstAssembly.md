@@ -1,5 +1,9 @@
-### Solution
+### First Assembly Assignment
+## flow chart
 
+<img width="453" alt="image" src="https://github.com/user-attachments/assets/4cbc4d1f-4df1-4263-8e40-4f1520995253" />
+
+## Code
 ```assembly
 section .data
     msg db "I came,", 0xA, "I saw,", 0xA, "I conquered.", 0xA
@@ -23,3 +27,5 @@ section .data
 msg db "I came,", 0xA, "I saw,", 0xA, "I conquered.", 0xA
 len equ $ - msg
 ```
+## What were your challenges in performing the lab?
+Figuring our how to use github is the most challenging thing, other than that, remembering the right registers (EBX, ECX, EDX—ugh, they’re hard to figure out.
