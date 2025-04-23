@@ -1,5 +1,10 @@
+# Quiz 3
+
+## code:
+
+```assembly
 section .data
-    x       dd 5          ; Number to calculate factorial of
+    x       dd 5          ; Input number to calculate factorial of
     result  dd 1          ; Final result (starts as 1)
 
 section .text
@@ -11,7 +16,7 @@ _start:
 
 factorial_loop:
     cmp ecx, 1
-    jl done               ; if counter < 1, we're done
+    jl done               ; if counter < 1, then done
     imul eax, ecx         ; eax *= ecx
     dec ecx               ; ecx--
     jmp factorial_loop
@@ -24,3 +29,4 @@ done:
     int 0x80
 
 section .bss
+```
