@@ -1,0 +1,24 @@
+## week 9
+## flowchart
+## Task 1: Generate even numbers up to 20
+```assembly 
+section .text
+    global _start
+
+_start:
+    mov eax, 0          ; start at 0
+
+    add eax, 2          ; 2
+    add eax, 2          ; 4
+    add eax, 2          ; 6
+    add eax, 2          ; 8
+    add eax, 2          ; 10
+    add eax, 2          ; 12
+    add eax, 2          ; 14
+    add eax, 2          ; 16
+    add eax, 2          ; 18
+    add eax, 2          ; 20
+
+    mov eax, 1
+    int 0x80
+```
